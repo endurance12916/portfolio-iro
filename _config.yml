@@ -5,14 +5,16 @@ url: "0.0.0.0" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Luke Li
+  title: Zixing Li
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Designer, Developer, Writer, and Guitar Beginner.</h1>
+     <img class="avatar" src="/img/avatar.png" alt="" style="height:200px; width:200px; display:inline-block; vertical-align:middle"/>
+     <p style="display:inline-block; vertical-align:middle"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- "If You Can't Pronounce My Name,<br>I Go By Luke"</p>
+     <h4 style="line-height:50px; margin-bottom:-50px">I'm a web designer and developer, specializing in <br>React, Redux, and Ruby on Rails.</h4>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
@@ -22,12 +24,12 @@ theme_settings:
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: "lukeli"
-  facebook: "lukeli"
+  dribbble: "zixingli"
+  facebook: "zixingli"
   flickr:
   github: "madebymunsters/type-theme"
   google_plus:
-  instagram: "lukeli"
+  instagram: "zixingli"
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -35,7 +37,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "lukeli"
+  twitter: "zixingli"
   wordpress:
   youtube:
 
