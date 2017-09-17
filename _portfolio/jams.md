@@ -10,4 +10,4 @@ short-description: An Album + Music Player built with ReactJS
 
 ## Summary
 
-This is a To-Do-List app 
+This is my ReactJS starter project, a music album with a simple media player. 

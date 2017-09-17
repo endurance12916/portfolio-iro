@@ -9,6 +9,15 @@
   text-align: center;
   color: $header-desc-text-color;
 }
+.site-nav {
+  ul {
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin:0 1.2em;
+    }
+  }
+}
 .call-out p:last-child {
   margin-bottom: 0;
 }
@@ -34,28 +43,87 @@
   }
 }
 
-// Work listing
+// Kami Work listing
 .work {
-  h2 {
-    text-align: center;
-  }
   @extend %padding-regular;
   background-size: $feature-image-size;
-  border-bottom: 1px solid $border-color;
-  li {
-    width: 32%;
-    margin-right:0.5%;
-    margin-left:0.5%;
-    margin-bottom: 0;
-    display: inline-block;
-    p a:hover {
-      @extend %link-hover;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%;
+  .project {
+    display: block;
+    float: left;
+    clear:both;
+    width:100%;
+    margin:2em auto;
+    .project-thumb {
+      width: 100%;
+      float: left;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      img {
+        display:block;
+        text-align: center;
+        margin:0 auto 1%;
+      }
+    }
+    .project-description {
+      width:100%;
+      float:left;
+      text-align: center;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      a {
+        strong {
+          font-size:1.4em;
+          margin-bottom:0.5em;
+          font-weight:600;
+        }
+      }
+      p a:hover {
+        @extend %link-hover;
+      }
+    }
+    .excerpt {
+      margin-top: 1em;
     }
   }
-  .excerpt {
-    margin-top: 1em;
-  }
 }
+
+// Iro Work listing
+// .work {
+//   margin-left: -150px;
+//   margin-right: -150px;
+
+//   h2 {
+//     text-align: center;
+//     margin-bottom: 50px;
+//   }
+//   @extend %padding-regular;
+//   background-size: $feature-image-size;
+//   border-bottom: 1px solid $border-color;
+//   li {
+//     width: 30%;
+//     margin-right:1.5%;
+//     margin-left:1.5%;
+//     margin-bottom: 0;
+//     display: inline-block;
+//     p a:hover {
+//       @extend %link-hover;
+//     }
+//   }
+//   .excerpt {
+//     margin-top: 1em;
+//   }
+// }
+
 // Pagination
 .pagination .button {
   margin: 0 1.5em;
@@ -65,5 +133,10 @@
 }
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
+  text-align: center;
+}
+
+// Added for Kami style
+.center {
   text-align: center;
 }
