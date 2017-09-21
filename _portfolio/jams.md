@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReactJams
+title: React Jams
 thumbnail-path: img/blocflix.png
 short-description: An Album + Music Player built with ReactJS
 
@@ -10,4 +10,4 @@ short-description: An Album + Music Player built with ReactJS
 
 ## Summary
 
-This is my ReactJS starter project, a music album with a simple media player. 
+This is my React starter project, a music album with a simple media player. 
