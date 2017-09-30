@@ -10,4 +10,4 @@ short-description: A mobile version of React Chat, built with React Native and R
 
 ## Summary
 
-ReactNativeChat is my current project. It is the mobile version of the React Chat app. Similar to React Chat, it also uses Redux and Firebase. It works on both iOS and Android. 
+This is my current project - a mobile version of the React Chat app. Similar to React Chat, it also uses Redux and Firebase. It works on both iOS and Android. 
