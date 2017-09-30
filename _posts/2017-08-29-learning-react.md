@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Experience With React
+title: Learning React
 ---
 
 I'm writing this post to share my React experience. To start off I'd like to thank my Bloc.io mentor Chris Roberson, a brilliant front-end developer who encouraged me to learn React and patiently answered all of my questions. 
@@ -15,24 +15,11 @@ Through my research and mentor meetings, React is a better choice for me compare
 * Angular 2 has been out for a while. So AngularJS's userbase will only get smaller and smaller
 * You don't have to learn jQuery to rock
 
-### What Are the Challenges In Learning React?
+### Good Resources I Found
 
-Speaking from my own experiences, the most challenging aspect is managing states. In a medium to large sized project, you're likely to have quite a few states floating around. Therefore having a good naming convention goes a long way. 
-
-{% highlight js %}
-    this.state = {
-        currentSongObject: {},
-        currentSongNumber: {},
-        songBeingPlayed: {},
-        songBeingPaused: {},
-        currentSoundFile: {},
-        currentVolume: 80,
-    }
-{% endhighlight %}
-
-> See the problem with the code above? After 12 hours into this project, you'll probably start to ask yourself what's the difference between `currentSongObject` and `currentSongFile`.
-
-There are also some tricky things to watchout for. One that blew my mind was the `setState` method. As a matter of fact, it doesn't set the state immediately, so you'll have to include a callback function if you need to access the new state immediately. See this [StackOverflow Q&A](https://stackoverflow.com/questions/42038590/when-to-use-react-setstate-callback).
+* CodeSchool has good intro course to React that teaches you the basics. It's very short but worth checking out
+* [The React homepage](https://reactjs.org/)
+* [This tutorial](https://egghead.io/courses/react-fundamentals) on egghead.io
 
 ### Some Good Habits
 * Maintain a good naming convention - eg. every action should have an `Action` suffix

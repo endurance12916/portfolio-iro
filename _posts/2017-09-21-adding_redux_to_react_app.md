@@ -4,7 +4,7 @@ title: Adding Redux to React App
 feature-img: "img/sample_feature_img.png"
 ---
 
-I'm writing this post to share my experience in learning & using Redux. I transformed my Bloc-Chat react app to React+Redux with the help of my mentor. It was a great learning experience and worth every second. I hope this post could help answer some questions for beginners like me.
+I'm writing this post to share my experience in learning & using Redux. I transformed my Bloc-Chat react app to React+Redux with the help of my mentor Chris. It was a great learning experience and worth every second. I hope this post could help answer some questions for beginners like me.
 
 The first challenge for me was to understand why I should learn it. Here are some points I gathered through my research and mentor meetings:
 

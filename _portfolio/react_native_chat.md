@@ -2,7 +2,7 @@
 layout: post
 title: React Native Chat
 thumbnail-path: img/blocflix.png
-short-description: A Chat App built with React Native and Redux, hosted on Firebase
+short-description: A mobile version of React Chat, built with React Native and Redux
 
 ---
 {:.center}
@@ -10,4 +10,4 @@ short-description: A Chat App built with React Native and Redux, hosted on Fireb
 
 ## Summary
 
-ReactNativeChat is the mobile version of the React Chat app. Similar to React Chat, it also uses Redux and Firebase. It works on both iOS and Android.
+ReactNativeChat is my current project. It is the mobile version of the React Chat app. Similar to React Chat, it also uses Redux and Firebase. It works on both iOS and Android. 

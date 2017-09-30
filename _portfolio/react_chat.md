@@ -2,7 +2,7 @@
 layout: post
 title: React Chat
 thumbnail-path: img/blocflix.png
-short-description: A Chat App built with ReactJS and Redux, hosted on Firebase
+short-description: A Chat App built with React and Redux, hosted on Firebase
 
 ---
 {:.center}

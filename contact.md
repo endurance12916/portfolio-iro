@@ -7,7 +7,7 @@ feature-img: "img/color.png"
 
 AMA!
 
-<form action="https://getsimpleform.com/messages?form_api_token=_yourtoken_" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=3721dca3a0b7b089669326896dda510c" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='http://bloc.github.io/portfolio-iro/thank-you/' />
   <input type='text' name='name' placeholder='Your Full Name' />
