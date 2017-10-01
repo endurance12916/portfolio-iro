@@ -1,12 +1,12 @@
 ---
 layout: post
 title: React Native Chat
-thumbnail-path: img/blocflix.png
+thumbnail-path: img/bloctalk_1x.png
 short-description: A mobile version of React Chat, built with React Native and Redux
 
 ---
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/bloctalk_1x.png)
 
 ## Summary
 

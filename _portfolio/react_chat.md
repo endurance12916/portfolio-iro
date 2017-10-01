@@ -1,12 +1,12 @@
 ---
 layout: post
 title: React Chat
-thumbnail-path: img/blocflix.png
+thumbnail-path: img/reactchat.png
 short-description: A Chat App built with React and Redux, hosted on Firebase
 
 ---
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/reactchat.png)
 
 ## Summary
 
