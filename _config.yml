@@ -12,8 +12,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>May The Force Be With You</h1>
-     <p>I'm a web designer and developer specializing in React and Rails.</p>
+     <h1>To Live, To Love, To Learn,<br/>To Leave a Legacy</h1>
+     <p>I'm a web designer and developer specializing in React, ReactNative, and Rails.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
